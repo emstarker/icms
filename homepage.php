@@ -18,7 +18,7 @@
             <p id="soft-name">মামলার তথ্য ব্যবস্থাপনা সিস্টেম</p>
 	   </div>
 	   <div class="header-right-region">
-            <img id="header-logo-right" src="softlogo.png" alt="মামলার তথ্য ব্যবস্থাপনা সিস্টেম">
+          <!--  <img id="header-logo-right" src="softlogo.png" alt="মামলার তথ্য ব্যবস্থাপনা সিস্টেম"> ...-->
 	   </div>
 	</div>
 	<div class="navigation-bar">
