@@ -1,0 +1,392 @@
+/* Global Code*/
+* {
+    font-family: nikosh,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 20px;
+    height: 100%;
+}
+body {
+    background-image: url(bg.jpg);
+}
+/*End of Global Code*/
+
+/*Start of login page*/
+.gov-logo-image {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ird-login {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+}
+.address-login {
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+}
+.welcome-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #008000;
+    text-align: center;
+    margin: 0px;
+}
+.left-region {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.right-region {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+.main-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.login-image {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-box {
+    padding: 20px;
+    border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    width: 400PX;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+.login-input {
+    font-size: 20px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+}
+.login-button {
+    font-size: 20px;
+    width: 100%;
+    background-color: #276cf5;
+    color: white;
+    margin: 8px 0px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login-button:hover {
+    background-color: #008000;
+}
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #276cf5;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: aquamarine;
+    background-color: transparent;
+    text-decoration: none;
+}
+.footer {
+    margin-top: 5px;
+    border-top: 1px solid darkblue;
+    padding-top: 5px;
+}
+#assist {
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+#contact {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+/*End of index page*/
+
+/*Start-----Header*/
+.header-left-region {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+.header-mid-region {
+    float: left;
+    width: 60%;
+}
+.header-right-region {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+.header-region::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#header-logo-left {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+}
+#header-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 20px 5px 15px;
+}
+#soft-name {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1148b8;
+    margin: 0px 20px 0px 15px;
+}
+#header-logo-right {
+    width: 80px;
+    height: 80px;
+}
+/*End-----Header*/
+
+/*Start---Navigation*/
+.navigation-bar {
+    background: linear-gradient(to bottom, #000428, #004e92);
+    text-align: center; 
+}
+.navigation-bar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    color: white;   
+}
+.navigation-bar ul li {    
+    border-right: 2px solid white;
+    border-radius: 10px;  
+}
+.navigation-bar ul li:last-child {
+    border-right: none;
+}
+.navigation-bar ul li a {
+    color: white;
+    padding: 10px 25px 10px 20px;
+    display: block;
+}
+.active-menu {
+    background-image: linear-gradient(to bottom, #051937, #004d7a, #008793,#004d7a,#051937);
+}
+.navigation-bar ul li:hover {
+    background-image: linear-gradient(to right, #051937, #004d7a, #008793,#004d7a,#051937);  
+}
+/*End-----Navigation*/
+
+/*Start-----Homepage*/
+.homepage-content {
+    margin:0% 13% 0% 13%;
+    padding: 10px;
+    height: 380px;
+    font-size: 25px;
+}
+.home-content {
+    margin: 10px 150px 10px 150px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px;
+    min-height: 350px;
+}
+.homepage-content {
+    margin: 10px;
+    padding: 10px;
+}
+.homepage-left {
+    float: left;
+    width: 50%;
+    text-align: justify;
+}
+.homepage-right {
+    float: right;
+    width: 50%;
+}
+.homepage-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#home-right-image {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: 130px;
+    border-radius: 50%;
+}
+/*End of Homepage*/
+
+/*Start-----New Case Entry Page*/
+.cef-top-text {
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+.ce-form {
+    padding: 5px;
+}
+.cef-row {
+    margin: 10px; 
+    padding: 10px;   
+}
+.cefr-e1 {
+    float: left;
+    width: 20%;
+}
+.cefr-e2 {
+    float: left;
+    width: 25%;
+}
+.cefr-e3 {
+    float: left;
+    width: 30%;
+}
+.cefr-e4 {
+    float: right;
+    width: 25%;
+    display: block;
+}
+.cef-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.cefr-i2, .cefr-i4{
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    width: 80%;
+}
+.cefr-l3, .cefr-i4 {
+    display: block;
+    float: right;
+}
+#cef-submit-button {
+    width: 200px;
+    background-color: #276cf5;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cef-submit-button:hover {
+    background-color: rgb(0, 150, 0)
+}
+#cefi-def-name2 {
+    margin-top: 5px;
+}
+/*End ------ New Case Entry Page*/
+
+/*Start ------ Information Update Page*/
+.iu-text {
+    text-align: center;
+    color: darkblue;
+    font-size: 25px;
+}
+.iu-search {
+    margin: 10px;
+    padding: 10px;
+}
+.iu-search-label {
+    float: left;
+    margin: 5px;
+}
+.iu-search-box {
+    float: left;
+}
+.iu-button {
+    float: left;
+}
+.iu-search:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.iu-i2 {
+    padding: 5px;
+    margin-left: 10px;
+    border: 2px solid #276cf5;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+}
+.iu-button {
+    margin-left: 10px;
+}
+.iu-submit-button {
+    width: 150px;
+    height: 40px;
+    background-color: #276cf5;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.iu-submit-button:hover {
+    background-color: rgb(0, 150, 0)
+}
+/*End ----- Information Update Page*/
+
+/*Start ----- Information Update Form*/
+#iu-submit-button {
+    width: 250px;
+    height: 40px;
+    background-color: #276cf5;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#iu-submit-button:hover {
+    background-color: rgb(0, 150, 0);
+}
